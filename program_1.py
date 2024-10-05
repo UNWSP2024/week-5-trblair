@@ -10,7 +10,7 @@ def kilometer_conversion(kilometers):
     ######################
     # WRITE YOUR CODE HERE
     ######################   
-    miles=kilometers * float(0.6214)
+    miles=kilometers * 0.6214
 
 
     # Return the variable to the calling function
@@ -21,9 +21,8 @@ def kilometer_conversion(kilometers):
 #### conversion logic in the temp_conversion function
 if __name__ == '__main__':
     # Get User Input
-    print('in main')
-    # Call kilometer_conversion
     result=float(input())
+    # Call kilometer_conversion
     kilometer_conversion(result)
     # Display the miles
     print(kilometer_conversion(result))
