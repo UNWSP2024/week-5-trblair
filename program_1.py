@@ -14,6 +14,7 @@ if __name__ == '__main__':
     # Get User Input
     result=int(input())
     # Call kilometer_conversion
+    kilometer_conversion(result)
     # Display the miles
     print(kilometer_conversion(result))
 
