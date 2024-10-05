@@ -13,7 +13,6 @@ def kilometer_conversion(kilometers):
 #### conversion logic in the temp_conversion function
 if __name__ == '__main__':
     # Get User Input
-    results=0
     result=int(input())
     # Call kilometer_conversion
     # Display the miles
